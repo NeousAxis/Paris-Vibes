@@ -20,6 +20,18 @@
       padding: 20px;
       text-align: center;
     }
+    gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
     main {
       padding: 20px;
       max-width: 800px;
@@ -59,13 +71,16 @@
     Paris est l’une des villes les plus emblématiques du monde, connue pour sa culture, son architecture, sa gastronomie et ses rues romantiques. De la Tour Eiffel à Montmartre, en passant par le Marais et les quais de Seine, chaque coin de la capitale offre une expérience unique.
   </p>
 
-  <h2>Galerie de Paris</h2>
 
-<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="Pont la nuit à Paris">
-<img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Tour Eiffel">
-<img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d" alt="Immeubles modernes à Paris">
-<img src="https://images.unsplash.com/photo-1574169208507-84376144848b" alt="Bâtiment historique">
-<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30" alt="Architecture urbaine">
+<h2>Galerie de Paris</h2>
+
+<div class="gallery">
+  <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="Pont la nuit à Paris">
+  <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="Tour Eiffel">
+  <img src="https://images.unsplash.com/photo-1508051123996-69f8caf4891d" alt="Immeubles modernes">
+  <img src="https://images.unsplash.com/photo-1574169208507-84376144848b" alt="Bâtiment historique">
+  <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30" alt="Bâtiment en béton rouge et blanc">
+</div>
 
 <h2>Découvre Paris</h2>
 <ul>
