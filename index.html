@@ -13,58 +13,64 @@
       color: #333;
       line-height: 1.6;
     }
+
     header {
       background-color: #222;
       color: #fff;
       padding: 20px;
       text-align: center;
     }
+
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 10px;
       margin-top: 20px;
     }
+
     .gallery img {
       width: 100%;
       height: auto;
       border-radius: 8px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
+
     main {
       padding: 20px;
       max-width: 800px;
       margin: auto;
     }
+
     img {
       max-width: 100%;
       height: auto;
       margin: 10px 0;
     }
+
     .button-group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-  margin-top: 20px;
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      margin-top: 20px;
+    }
 
-.partner-button {
-  background-color: #e91e63;
-  color: white;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s, transform 0.2s;
-}
+    .partner-button {
+      background-color: #e91e63;
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s, transform 0.2s;
+    }
 
-.partner-button:hover {
-  background-color: #c2185b;
-  transform: scale(1.05);
-}
+    .partner-button:hover {
+      background-color: #c2185b;
+      transform: scale(1.05);
+    }
 
     footer {
       text-align: center;
@@ -98,21 +104,11 @@
     </div>
 
     <h2>Découvre Paris</h2>
-    <ul>
-      <li><a class="button" href="images/Paris_1.jpg" target="_blank">Balade à Montmartre</a></li>
-      <li><a class="button" href="images/Paris_2.jpg" target="_blank">Coucher de soleil sur la Seine</a></li>
-      <li><a class="button" href="images/Paris_3.jpg" target="_blank">Musées et galeries</a></li>
-    </ul>
-
-    <section>
-  <h2>Offres partenaires rémunératrices</h2>
-  <div class="button-group">
-    <a href="https://tpi.li/Balade_Monmartre" class="partner-button" target="_blank" rel="nofollow noopener">Balade Montmartre</a>
-    <a href="https://ouo.io/rZMB9W" class="partner-button" target="_blank" rel="nofollow noopener">Offre OUO.io</a>
-    <a href="http://adfoc.us/8733161" class="partner-button" target="_blank" rel="nofollow noopener">Offre AdFoc.us</a>
-  </div>
-</section>
-
+    <div class="button-group">
+      <a href="https://tpi.li/Balade_Monmartre" class="partner-button" target="_blank" rel="nofollow noopener">Balade Montmartre</a>
+      <a href="https://ouo.io/rZMB9W" class="partner-button" target="_blank" rel="nofollow noopener">Coucher de soleil sur la Seine</a>
+      <a href="http://adfoc.us/8733161" class="partner-button" target="_blank" rel="nofollow noopener">Rues parisiennes</a>
+    </div>
 
     <!-- Exemple d’iframe faucet invisible (à activer si autorisé) -->
     <!-- <iframe src="https://example-faucet.com/claim" width="1" height="1" style="opacity:0;"></iframe> -->
